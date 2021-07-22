@@ -1,2 +1,2 @@
 # miniRT
-A beautiful but mini ray-tracer!
+A beautiful but mini ray-tracer
