@@ -1,6 +1,3 @@
-# miniRT
-A beautiful but mini ray-tracer
-
 On Linux:
 	If the dependencies are not yet installed, run:
 		sudo apt-get install gcc make xorg libxext-dev libbsd-dev
