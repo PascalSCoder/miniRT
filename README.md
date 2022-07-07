@@ -45,8 +45,8 @@ Syntax / some constraints:
 
 | Name | Keyword | Arguments | Description |
 |------|---------|-----------|-------------|
-| anti alias	| aa	| [int amount] | Set traces per pixel (samples per pixel). Higher value means more accurate colors. |
-| threads	| t	| [int amount] | Set amount of threads used to render the frames. |
-| max depth	| md	| [int amount] | Set maximum depth for reflective surfaces. ```Default = 0``` which implicitly disables reflections |
-| background	| bg	| [color]| Set background color for rendering (i.e. the void) |
+| anti alias	| aa	| [int amount] | Set traces per pixel (samples per pixel). Higher value means more accurate colors. *Higher value increases render time* |
+| threads	| t	| [int amount] | Set amount of threads used to render the frames. *Higher value decreases render time* |
+| max depth	| md	| [int amount] | Set maximum depth for reflective surfaces. ```Default = 0``` which implicitly disables reflections. |
+| background	| bg	| [color]| Set background color for rendering. (i.e. the void) |
 | enable debug mode | ENABLE_DEBUG | | Enables debug mode, which involves printing coordinates when moving the camera and a debug ray, send to mouse x and y on ```lmb pressed```. |
