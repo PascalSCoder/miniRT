@@ -23,7 +23,7 @@ On Linux:
 ## Scene configuration file
 If an argument consists of multiple values, supply one ',' comma between the values. See an example: ```c 0.5,0,-10 1,0,1 60``` where ```c``` means camera, on pos ```0.5,0,-10``` with orientation ```1,0,1``` and a field of view of ```60``` degrees.
 
-Some constraints:
+Syntax / some constraints:
 - Light intensity = float between 0 and 1.
 - Roughness = float between 0 and 1.
 - Pos = vector3 of floats.
