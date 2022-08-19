@@ -50,3 +50,7 @@ Syntax / some constraints:
 | max depth	| md	| [int amount] | Set maximum depth for reflective surfaces. ```Default = 0``` which implicitly disables reflections. |
 | background	| bg	| [color]| Set background color for rendering. (i.e. the void) |
 | enable debug mode | ENABLE_DEBUG | | Enables debug mode, which involves printing coordinates when moving the camera and a debug ray, send to mouse x and y on ```lmb pressed```. |
+
+## Improvements / Issues
+- Cylinder does not always render the correct order with caps, resulting in the nearest cap being invisible.
+- Plane is rendering on the whole screen if the camera is positioned exactly at the plane's axis.

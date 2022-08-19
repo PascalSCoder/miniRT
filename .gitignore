@@ -1,0 +1,10 @@
+# Build
+*.o
+*.a
+
+# 3rd party
+minilibx*
+.vscode
+
+# Executable
+miniRT
